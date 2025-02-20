@@ -1,0 +1,125 @@
+body {  
+    font-family: 'Roboto', sans-serif;  
+    background-color: #0a0f2b; /* Azul oscuro más profundo */
+    color: #e0e0e0;  
+}  
+
+.navbar {  
+    background-color: #0d6efd; /* Azul ciberseguridad */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}  
+
+.navbar-brand, .nav-link {  
+    color: white !important;  
+    transition: color 0.3s ease-in-out;
+}  
+
+.navbar-brand:hover, .nav-link:hover {  
+    color: #17c3b2 !important; /* Cian vibrante para destacar */
+}  
+
+.hero-section {  
+    background: linear-gradient(135deg, #0a58ca 0%, #062147 100%);
+    color: white;  
+    padding: 80px 0;  
+    text-align: center;  
+}  
+
+.team-member img {  
+    width: 100px;  
+    height: 100px;  
+    border-radius: 50%;  
+    margin-right: 15px;  
+    border: 3px solid #17c3b2; /* Borde cian para dar un toque moderno */
+}  
+
+.card-body {  
+    text-align: center;  
+    color: white;
+}  
+
+.pricing-section, .team-section, .about-section {  
+    padding: 60px 0;  
+}  
+
+.pricing-card {  
+    background-color: #1b1f3b;  
+    border: 1px solid #17c3b2;  
+    border-radius: 10px;  
+    transition: transform 0.3s, box-shadow 0.3s;
+}  
+
+.pricing-card:hover {  
+    transform: scale(1.05);  
+    box-shadow: 0px 10px 20px rgba(23, 195, 178, 0.3);
+}  
+
+.footer {  
+    background-color: #111528;  
+    color: white;  
+    padding: 30px 0;  
+    text-align: center;  
+    border-top: 2px solid #17c3b2;
+}  
+
+.org-chart img {  
+    width: 100%;  
+}  
+
+h2 {  
+    color: #17c3b2;  
+}  
+
+.btn-primary {  
+    background-color: #198754; /* Verde ciberseguridad */
+    border: none;  
+}  
+
+.btn-primary:hover {  
+    background-color: #146c43;  
+}  
+
+.nav-item:hover {  
+    background-color: rgba(255, 255, 255, 0.1);  
+}  
+
+.italic-text {  
+    font-style: italic;  
+}
+
+/* Estilo adicional para dar un toque más moderno */
+.glow-effect {
+    text-shadow: 0 0 5px #17c3b2, 0 0 10px #17c3b2;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #17c3b2, #0d6efd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.leadership-approach {  
+    margin: 20px 0;   
+    padding: 20px; /* Espaciado interno */  
+    border-radius: 5px; /* Bordes redondeados */  
+    color: white; /* Color de texto blanco para contraste */  
+}  
+
+.leadership-approach h4 {  
+    margin-top: 15px; /* Espacio superior para encabezados */  
+    font-weight: bold; /* Negrita para encabezados */  
+}  
+
+.leadership-approach p {  
+    margin-bottom: 10px; /* Espacio inferior para párrafos */  
+}
+
+ul.text-center {  
+    list-style-type: none; /* Eliminar viñetas */  
+    padding: 0; /* Eliminar padding del ul */  
+}  
+
+ul.text-center li {  
+    margin: 10px 0; /* Espacio entre los elementos de la lista */  
+} 
